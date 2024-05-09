@@ -15,10 +15,10 @@ body {
     --heading-font: 'Reddit Sans', Sans-serif;
     --paragraph-font: 'Reddit Sans', Sans-serif;
 
-    --nav-bg-color: #e0e0e0;
+    --nav-background-color: #e0e0e0;
     --nav-link-color: #0b0b09;
     --nav-hover-link-color: #3c2f9d;
-    --nav-hover-bg-color: #2ba84a;
+    --nav-hover-background-color: #2ba84a;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -42,7 +42,7 @@ p {
 }
 
 nav {
-    background-color: var(--nav-bg-color);
+    background-color: var(--nav-background-color);
     font-size: 1.2rem;
     display: flex;
     padding: 10px;
@@ -61,6 +61,6 @@ nav a:link, nav a:visited {
 
 nav a:hover {
     color: var(--nav-hover-link-color);
-    background-color: var(--nav-hover-bg-color);
+    background-color: var(--nav-hover-background-color);
 }
 
