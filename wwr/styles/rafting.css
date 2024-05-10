@@ -135,19 +135,17 @@ footer {
     background-color: var(--secondary-color);
     padding: 20px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     text-align: center;
 }
 
 footer p {
-    display: inline-block;
-    justify-content: center;
+    margin: 0;
 }
 
 footer .sociallinks {
     display: flex;
-    align-items: center;
 }
 
 footer .sociallinks a {
@@ -176,7 +174,7 @@ footer nav {
 
 .hero h1 {
     position: absolute;
-    top: 20%;
+    top: 0%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: #fff;
