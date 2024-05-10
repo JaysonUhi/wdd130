@@ -135,18 +135,20 @@ footer {
     background-color: var(--secondary-color);
     padding: 20px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     text-align: center;
 }
 
 footer p {
-    margin: 0;
-    flex: 1;
+    display: inline-block;
+    margin-left: 810px;
 }
 
 footer .sociallinks {
     display: flex;
+    align-items: center;
+    margin-right: 50px;
 }
 
 footer .sociallinks a {
