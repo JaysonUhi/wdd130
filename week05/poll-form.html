@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,intial-scale=1.0">
+        <title>WDD 130 | HTML Form - User Poll</title>
+        <meta name="description" content="My name is Jayson Uhi and this page is for WDD130">
+        <meta name="author" content="Jayson Uhi">
+        <link rel="stylesheet" href="styles/poll-form.css">
+    </head>
+
+    <body>
+        <header>
+            <h1>WDD130 | Jayson Uhi | HTML Form - User Poll</h1>
+        </header>
+
+        <main>
+            <form>
+                <fieldset>
+                    <legend>Contact Information</legend>
+                    <div class="form-item column2">
+                        <label for="fullname">Full Name:</label>
+                        <input type="text" name="fullname" id="fullname">
+                    </div>
+                    <div class="form-item column2">
+                        <label for="useremail">Email</label>
+                        <input type="email" id="useremail" name="useremail">
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Questions</legend>
+                    <div class="form-item column1">
+                        <label for="browser">What is your favorite internet brower?</label>
+                        <select id="browser" name="browser">
+                            <option value="chrome">Chrome</option>
+                            <option value="firefox">Firefox</option>
+                            <option value="safari">Safari</option>
+                            <option value="edge">Edge</option>
+                            <option value="brave">Brave</option>
+                            <option value="other">Other</option>                        
+                        </select>
+                    </div>
+                    <div class="form-item column1">
+                        <label for="pet">Do you have a household pet?</label>
+                        <input type="checkbox" id="pet" name="pet">
+                    </div>
+                    <div class="form-item">
+                        <label for="feedback">List the places you have lived:</label>
+                        <textarea id="feedback" name="feedback" rows="4" placeholder="Stillwater Florida, Amsterdam Netherlands, Tibuku Mali"></textarea>
+                    </div>    
+                </fieldset>
+               <button type="submit">Submit Poll</button>
+            </form>
+        </main>
+
+        <footer>
+            <p>©2024 🤙 HTML Form - User Poll Activity 🤙 Jayson Uhi 🤙</p>
+        </footer>
+    </body>
+    
+</html>
