@@ -142,12 +142,12 @@ footer {
 
 footer p {
     display: inline-block;
-    margin-left: 80px;
+    margin-left: 810px;
 }
 
 footer .sociallinks {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     margin-right: 50px;
 }
 
@@ -161,7 +161,7 @@ footer .sociallinks a img {
 }
 
 footer nav {
-    margin-left: 5px;
+    margin-left: auto;
 }
 
 .hero {
