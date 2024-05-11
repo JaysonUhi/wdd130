@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz | Jayson Uhi</title>
+    <meta name="description" content="My name is Jayson Uhi and this page is for WDD130">
+    <meta name="author" content="Jayson Uhi">
+    <link rel="stylesheet" href="styles/quiz.css">
+</head>
+
+    <body>
+        <main>
+            <div class="container">
+                <h1>HTML and CSS Quiz</h1>
+                <form action="submit_quiz.php" method="post">
+                    <label for="q1">What does <strong>HTML</strong> stand for?:</label>
+                    <input type="text" id="q1" name="q1" required>
+                    <!-- Hypertext Markup Language -->
+
+                    <label for="q2">What's the difference between <strong>margin</strong> and <strong>padding</strong> in CSS?:</label>
+                    <textarea id="q2" name="q2" rows="4" required></textarea>
+                    <!-- Margin clears an area outside the border; padding clears inside -->
+
+                    <label for="q3">What does the CSS property <strong>float</strong> do?:</label>
+                    <select id="q3" name="q3" required>
+                        <option value="" selected disabled>Choose One ...</option>
+                        <option value="a">It creates space around an element's content, outside of any defined borders.</option>
+                        <option value="b">It specifies the size of an element's font.</option>
+                        <option value="c">It moves an element to the left or right, allowing other elements to wrap around it.</option>
+                        <option value="d">It aligns an element vertically within its containing element.</option>
+                        <!-- 3 -->
+                    </select>
+
+                    <label for="q4">What is the total amount of space in pixels occupied by the element,</label>
+                    <label for="q4"> including border, padding, and margin on all sides?:</label>
+                    <div class="callout-box">
+                        <code>padding: 10px;<br>
+                        margin: 5px;<br>
+                        border: 2px solid black;</code><br>
+                    </div>
+                    <div class="input-with-unit">
+                        <input type="number" id="q4" name="q4" required>
+                        <span class="unit">px</span>
+                    </div>                    
+                    <!-- 19px -->
+
+                    <button type="submit" class="submit-button">Submit Quiz</button>
+                </form>
+            </div>
+        </main>
+
+        <footer>
+            <p>©2024 🤙 Jayson Uhi 🤙 Utah</p>
+        </footer>
+    </body>
+</html>
