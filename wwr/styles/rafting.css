@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Reddit+Sans:ital,wght@0,200..900;1,200..900&display=swap');
 
 :root {
-    --primary-color: #2ba84a;
+    --primary-color: #1000a0;
     --secondary-color: #e0e0e0;
     --accent1-color: #0b0b09;
     --accent2-color: #3c2f9d;
@@ -62,11 +62,11 @@ header img {
 }
 
 nav a {
-    color: #0a7e4a;
+    color: var(--primary-color);
     text-decoration: none;
     padding: 10px 20px;
     margin: 0;
-    border: 2px solid #0a7e4a;
+    border: 2px solid var(--primary-color);
     transition: background-color 0.3s, color 0.3s;
 }
 
@@ -198,7 +198,7 @@ footer nav {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(255, 255, 255, 0.5);
     padding: 20px;
     max-width: 1000px;
     width: 90%;
