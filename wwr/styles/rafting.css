@@ -11,7 +11,7 @@
 
 body {
     font-family: var(--paragraph-font);
-    color: var(--primary-color);
+    color: var(--accent1-color);
     margin: 0;
     padding: 0;
 }
